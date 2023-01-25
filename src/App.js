@@ -1,7 +1,9 @@
+import MiApi from './MiApi';
+
 function App () {
   return (
     <div className="App">
-      <h1>Hola Mundo</h1>
+      <MiApi />
     </div>
   );
 }
