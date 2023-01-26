@@ -6,8 +6,8 @@ const MiApi = () => {
 
   return (
     <div className='container'>
-      {loading && <p>Loading...</p>}
       <h1> Mi Api</h1>
+      {loading && <p>Loading...</p>}
       <div className='row'>
         {data.map(character => (
           <Card
