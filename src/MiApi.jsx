@@ -18,7 +18,7 @@ const MiApi = () => {
 
   return (
     <div className='container mt-3'>
-      <nav className='d-flex justify-content-between align-items-center'>
+      <nav className='d-flex justify-content-between align-items-center bg-dark text-white p-3'>
         <h1> Personajes de Marvel</h1>
         <hr />
         <div>
@@ -43,7 +43,7 @@ const MiApi = () => {
           🤪 Cargando...
         </div>
       )}
-      <div className='row d-flex justify-content-between'>
+      <div className='d-flex flex-wrap'>
         {searchResult.map(character => (
           <Card
             key={character.id}

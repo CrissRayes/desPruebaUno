@@ -1,7 +1,7 @@
 const Card = ({ id, name, src, description }) => {
   return (
     <div
-      className='card mb-4 shadow-sm'
+      className='card mb-4 shadow-sm mx-auto'
       style={{ width: '18rem' }}
     >
       <img
