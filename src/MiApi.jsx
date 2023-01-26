@@ -5,9 +5,14 @@ const MiApi = () => {
   const { data, loading } = useGetData()
 
   return (
-    <div className='container'>
+    <div className='container mt-3'>
       <h1> Personajes de Marvel</h1>
-      {loading && <p>🤪 Cargando...</p>}
+      {loading && (
+        <div className='bg-info text-white text-center fs-3'>
+          <span className='spinner-border spinner-border-sm mr-2'></span>
+          🤪 Cargando...
+        </div>
+      )}
       <div className='row'>
         {data.map(character => (
           <Card
