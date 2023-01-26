@@ -5,15 +5,17 @@ const MiApi = () => {
   const { data, loading } = useGetData()
 
   return (
-    <div>
+    <div className='container'>
       {loading && <p>Loading...</p>}
       <h1> Mi Api</h1>
-      {data.map(character => (
-        <Card
-          key={character.id}
-          {...character}
-        />
-      ))}
+      <div className='row'>
+        {data.map(character => (
+          <Card
+            key={character.id}
+            {...character}
+          />
+        ))}
+      </div>
     </div>
   )
 }
