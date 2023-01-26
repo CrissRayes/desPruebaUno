@@ -12,7 +12,7 @@ const Card = ({ id, name, src, description }) => {
       />
       <div className='card-body'>
         <h5 className='card-title'>{name}</h5>
-        <p className='card-text'>
+        <p className='card-text texto-truncado'>
           {description || 'Descripción no disponible'}
         </p>
       </div>
