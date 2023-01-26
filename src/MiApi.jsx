@@ -33,8 +33,9 @@ const MiApi = () => {
           />
         </div>
       </nav>
-      <p className='text-end'>
-        La búsqueda se hace con los nombres en inglés. Ejemplo: Captain America
+      <p className='text-end text-secondary'>
+        La búsqueda se hace con los nombres en inglés. Ejemplo: Captain America,
+        Ant-Man, Black Widow, etc.
       </p>
       {loading && (
         <div className='bg-info text-white text-center fs-3'>
