@@ -6,8 +6,8 @@ const MiApi = () => {
 
   return (
     <div className='container'>
-      <h1> Mi Api</h1>
-      {loading && <p>Loading...</p>}
+      <h1> Personajes de Marvel</h1>
+      {loading && <p>🤪 Cargando...</p>}
       <div className='row'>
         {data.map(character => (
           <Card

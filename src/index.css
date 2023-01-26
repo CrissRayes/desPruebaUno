@@ -8,3 +8,7 @@
 
   text-overflow: ellipsis;
 }
+
+.card {
+  padding: 0 !important;
+}

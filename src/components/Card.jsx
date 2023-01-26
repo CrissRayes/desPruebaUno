@@ -5,7 +5,7 @@ const Card = ({ id, name, src, description }) => {
       style={{ width: '18rem' }}
     >
       <img
-        className='card-img-top'
+        className='card-img-top w-100'
         src={src}
         alt={name}
         style={{ height: '18rem' }}
