@@ -1,3 +1,4 @@
+import Card from './components/Card'
 import useGetData from './hooks/useGetData'
 
 const MiApi = () => {
@@ -7,17 +8,12 @@ const MiApi = () => {
     <div>
       {loading && <p>Loading...</p>}
       <h1> Mi Api</h1>
-      <div>
-        {data.map(character => (
-          <div key={character.id}>
-            <p>{character.name}</p>
-            <img
-              src={character.src}
-              alt=''
-            />
-          </div>
-        ))}
-      </div>
+      {data.map(character => (
+        <Card
+          key={character.id}
+          {...character}
+        />
+      ))}
     </div>
   )
 }
