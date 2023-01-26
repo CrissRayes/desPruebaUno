@@ -1,3 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import MiApi from './MiApi';
 
 function App () {
