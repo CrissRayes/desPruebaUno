@@ -5,6 +5,4 @@
 
 ### Link del video explicativo:
 
-_pendiente de agregar_
-
-<!-- Para visualizar el video explicativo has click [aquí](http://www.linkalvideoexplicativo.com) -->
+Para visualizar el video explicativo has click [aquí](https://youtu.be/_QQN3vzt-n4)
