@@ -3,6 +3,12 @@
 /.pnp
 .pnp.js
 
+package-lock.json
+
+# git
+.git
+.gitignore
+
 # testing
 /coverage
 
